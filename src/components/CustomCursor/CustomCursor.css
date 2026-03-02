@@ -23,3 +23,9 @@
     z-index: 9998;
     filter: blur(8px);
 }
+
+@media (hover: none) and (pointer: coarse) {
+    .cursor-dot, .cursor-glow {
+        display: none !important;
+    }
+}

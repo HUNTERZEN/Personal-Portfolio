@@ -498,3 +498,64 @@
     transform: translateY(-4px);
     box-shadow: 0 8px 25px rgba(0, 102, 255, 0.6);
 }
+
+/* --- MEDIA QUERIES FOR MOBILES AND TABLETS --- */
+@media (max-width: 768px) {
+    .main-content {
+        padding-top: 60px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        padding: 0 16px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        padding: 0 24px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .card-content {
+        flex-direction: column;
+        padding: 32px 24px;
+        align-items: center;
+        text-align: center;
+        gap: 32px;
+    }
+
+    .card-title {
+        font-size: 1.8rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px 24px;
+        text-align: center;
+    }
+
+    .footer-right {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
