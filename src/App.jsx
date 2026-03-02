@@ -75,8 +75,7 @@ function App() {
                   <span className="text-blue">About</span> Kunal Singha
                 </h2>
                 <p className="card-description">
-                  I'm a passionate Android ROM Developer, Backend Developer, and the CTO of <span className="text-teal">Aternex Solutions</span>.
-                  Currently, I'm diving deep into Cybersecurity and open for collaborations and tech support.
+                  I'm a dedicated and passionate software engineer with a core focus on <strong>Backend Development</strong>. Beyond server architecture, I am deeply involved in mobile ecosystems as an <strong>Android ROM Developer</strong>—building custom OS experiences and creating port builds. I also serve as the CTO of <span className="text-teal">Aternex Solutions</span>. Currently, I'm expanding my horizons into <strong>Cybersecurity</strong> and am always open to exciting collaborations and providing elite tech support.
                 </p>
                 <div className="card-footer-text">
                   Let's build something amazing together.
