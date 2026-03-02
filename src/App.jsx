@@ -75,7 +75,7 @@ function App() {
                   <span className="text-blue">About</span> Kunal Singha
                 </h2>
                 <p className="card-description">
-                  I'm a dedicated and passionate software engineer with a core focus on <strong>Full-Stack Development</strong> and <strong>App Development</strong>. Beyond building end-to-end web applications, I am deeply involved in mobile ecosystems as an <strong>Android ROM Developer</strong>—building custom OS experiences and creating port builds. I also serve as the CTO of <span className="text-teal">Aternex Solutions</span>. Currently, I'm expanding my horizons into <strong>Cybersecurity</strong> and am always open to exciting collaborations and providing elite tech support.
+                  I'm a dedicated and passionate software engineer with a core focus on <strong>Full-Stack Web Development</strong> and <strong>App Development</strong>. Beyond building end-to-end web applications, I am deeply involved in mobile ecosystems as an <strong>Android ROM Developer</strong>—building custom OS experiences and creating port builds. I also serve as the CTO of <span className="text-teal">Aternex Solutions</span>. Currently, I'm expanding my horizons into <strong>Cybersecurity</strong> and am always open to exciting collaborations and providing elite tech support.
                 </p>
                 <div className="card-footer-text">
                   Let's build something amazing together.
