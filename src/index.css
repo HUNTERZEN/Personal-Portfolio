@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg-color: #030409;
+  --text-primary: #ffffff;
+  --text-secondary: #e2e8f0;
+  --accent-blue: #1b73e8;
+  --accent-blue-glow: #0066ff;
+  --accent-cyan: #00b4d8;
+  --accent-red: #e63946;
+  --accent-purple: #9d4edd;
+
+  --glass-bg: rgba(10, 15, 30, 0.4);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: blur(20px);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: none !important;
+  /* Keep the custom cursor */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  /* Complex radial gradients to match the reference image's background */
+  background-image:
+    radial-gradient(circle at 30% 0%, rgba(157, 78, 221, 0.25), transparent 40%),
+    radial-gradient(circle at 90% 20%, rgba(0, 102, 255, 0.35), transparent 35%),
+    radial-gradient(circle at 50% 35%, rgba(230, 57, 70, 0.15), transparent 50%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+}
